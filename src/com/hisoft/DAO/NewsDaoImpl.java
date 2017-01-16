@@ -64,4 +64,10 @@ public class NewsDaoImpl extends BaseDao implements INewsDao {
 		return 0;
 	}
 
+	@Override
+	public boolean doCreate(NewsInfo news) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }
