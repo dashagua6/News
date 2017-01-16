@@ -9,7 +9,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>My JSP 'document.jsp' starting page</title>
+    <title>文件上传</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -23,8 +23,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
+  <h1>文件上传实例</h1>
   <form action="doDocument.jsp" method="post" enctype="multipart/form-data">
-  <input type="file" name="file">
+  选择一个文件：<input type="file" name="file">
   <input type="submit" value="提交">
   </form>
   </body>

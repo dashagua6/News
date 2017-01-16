@@ -60,10 +60,10 @@
 				<li class='space'></li>
 				<p align="right">
 					当前页数:[<%=pageBean.getCurrentPage()%>/<%=pageBean.getTotalPage()%>]&nbsp;
-					<a href="admin.jsp?num=1">首页</a> <a
-						href="javascript:beginCheck(<%= pageBean.getCurrentPage()-1 %>)">上一页</a> <a
-						href="javascript:endCheck(<%=pageBean.getCurrentPage()+1%>,<%=pageBean.getTotalPage()%>)">下一页</a> <a
-						href="admin.jsp?num=<%=pageBean.getTotalPage()%>">末页</a>
+					<a href="admin.jsp?num=1">首页</a> 
+					<a href="javascript:beginCheck(<%= pageBean.getCurrentPage()-1 %>)">上一页</a> 
+					<a href="javascript:endCheck(<%=pageBean.getCurrentPage()+1%>,<%=pageBean.getTotalPage()%>)">下一页</a> 
+					<a href="admin.jsp?num=<%=pageBean.getTotalPage()%>">末页</a>
 				</p>
 			</ul>
 		</div>
